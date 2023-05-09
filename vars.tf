@@ -1,4 +1,4 @@
-variable "spoothy_bucket_name" {}
-variable "spoothy_bucket_tag_name" {}
-variable "spoothy_bucket_tag_env" {}
+variable "spoothy-bucket-name" {}
+variable "spoothy-bucket-tag-name" {}
+variable "spoothy-bucket-tag-env" {}
 

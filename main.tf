@@ -1,8 +1,8 @@
 resource "aws_s3_bucket" "example" {
-  bucket = "${var.spoothy_bucket_name}"
+  bucket = "${var.spoothy-bucket-name}"
 
   tags = {
-    Name        = "${var.spoothy_bucket_tag_name}"
-    Environment = "${var.spoothy_bucket_tag_env}"
+    Name        = "${var.spoothy-bucket-tag-name}"
+    Environment = "${var.spoothy-bucket-tag-env}"
   }
 }
